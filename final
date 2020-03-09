@@ -1,0 +1,16 @@
+package ex1.io;
+import java.util.Scanner; //라이브러리 사용
+public class Program {
+
+	public static void main(String[] args) {
+		Scanner stdIn = new Scanner(System.in); //메소드
+		
+		final double PI=3.14;
+		
+		System.out.print("원의 반지름의 길이 : ");
+		int x = stdIn.nextInt();
+		System.out.printf("원주의 길이는 :%.2f ",2*PI*x);//use printf
+	}
+
+}
+
